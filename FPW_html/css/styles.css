@@ -1,7 +1,16 @@
 body{
     background: cadetblue;
     color: darkblue;
-    font-size: larger;
     font-weight: lighter;
+    font-size: 220%;
     margin-top: 3%;
 }
+
+img{
+    width: 23%;
+}
+.headinglinks{
+    font-size: 120%;
+    margin-top: 20px;
+}
+
