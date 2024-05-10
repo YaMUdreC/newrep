@@ -10,7 +10,41 @@ img{
     width: 23%;
 }
 .headinglinks{
+    display: block;
     font-size: 120%;
-    margin-top: 20px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 23%;
+    
 }
 
+.headinglist{
+    background-color: beige;
+    padding: 20px;
+}
+
+.formclass{
+background-color: rgb(234, 238, 199);
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+padding: 10%;
+font-size: 150%;
+}
+
+.formclass input{
+    width: 240px;
+    height: 25px;
+}
+
+.buttonthis{
+    background-color: black; 
+    color: white;
+    border: solid;
+    font-size: larger;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
