@@ -170,3 +170,8 @@ font-size: 150%;
     color: aquamarine;
 
 }
+
+h1 {
+
+    text-shadow: 5px 5px black;
+}
