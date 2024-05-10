@@ -117,7 +117,7 @@ font-size: 150%;
 
 .wrapper{
     display: flex;
-    justify-content: space- ;
+    justify-content:center;
     margin-top: 100px;
 }
 
