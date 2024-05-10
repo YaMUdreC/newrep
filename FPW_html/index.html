@@ -37,19 +37,19 @@
         <div class="formclass"> 
             <form style="text-align: left;">
                 <label for="rc1">radio1??: </label>
-                <input type="radio" id="rc1" name="radioname"><br>
+                <input class="inptbox" type="radio" id="rc1" name="radioname"><br>
                 <label for="rc2">radio2??: </label>
-                <input type="radio" id="rc2" name="radioname"><br>
+                <input class="inptbox" type="radio" id="rc2" name="radioname"><br>
                 <label for="rc3">radio3??: </label>
-                <input type="radio" id="rc3" name="radioname"><br>
+                <input class="inptbox" type="radio" id="rc3" name="radioname"><br>
                 <label for="chck1">check??: </label>
-                <input type="checkbox" id="chck1" name="checkname"><br>
+                <input class="inptbox" type="checkbox" id="chck1" name="checkname1"><br>
                 <label for="chck2">check??: </label>
-                <input type="checkbox" id="chck2" name="checkname"><br>
+                <input class="inptbox" type="checkbox" id="chck2" name="checkname2"><br>
                 <label for="chck3">check??: </label>
-                <input type="checkbox" id="chck3" name="checkname"><br>
+                <input class="inptbox" type="checkbox" id="chck3" name="checkname3"><br>
                 <!-- what is HAPPENING?-->
-                <select> 
+                <select class="slct"> 
                     <!-- option tag starts -->  
                     <option value="html">HTML</option> 
                     <option value="java">JAVA</option> 
@@ -58,7 +58,7 @@
                     <option value="perl">PERL</option> 
                     <!-- option tag ends --> 
                 </select>
-                <select> <!-- option tag starts -->  
+                <select class="slct"> <!-- option tag starts -->  
                     <option value="html">HTML</option> 
                     <option value="java">JAVA</option> 
                     <option value="C++" selected>C++</option> 
@@ -72,7 +72,7 @@
                 <input type="password" id="num" name="numname"><br>
                 <label for="fl">upload a file</label><br>
                 <input type="file" id="fl" name="fl" accept="image/png, image/jpeg"><br>
-                <input type="submit" id="subm" value="save">
+                <input class="sbmt" type="submit" id="subm" value="save">
             </form>
         </div>
 
@@ -80,7 +80,7 @@
             <video controls>
                 <source src="media/file.mp4" type="video/mp4">
                 Video not supported
-            </video><br>
+            </video>
             <audio controls>
                 <source src="media/mus.mp3" type="audio/mpeg">
                 Music not supported
@@ -89,6 +89,14 @@
 
         <div class="buttonthis">
             <button onclick="alert('Message')">BUTTON</button>
+        </div>
+
+        <div class="newcard">
+            So great was her reign and so brilliant her glory that long was the shadow she made which fall down upon a pony she loved and grew only darker as days and nights passed.
+        </div>
+        <div class="wrapper">
+            <button class="btn">BUTTON</button>
+            <div class="p">So great was her reign and so brilliant her glory that long was the shadow she made which fall down upon a pony she loved and grew only darker as days and nights passed.</div>
         </div>
     </body>
 </html>
