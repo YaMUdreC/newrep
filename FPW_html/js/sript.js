@@ -1,0 +1,1 @@
+function doFunction() { alert("HELLO");}
