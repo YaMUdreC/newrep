@@ -131,13 +131,13 @@ font-size: 150%;
     border-radius: 10px;
 }
 
-.wrapper{
+.wrapper1{
     display: flex;
     justify-content:center;
     margin-top: 100px;
 }
 
-.wrapper .btn{
+.wrapper1 .btn{
     margin-right: 20px;
     margin-left: 20px;
     color: rgb(48, 48, 48);
@@ -155,7 +155,7 @@ font-size: 150%;
     font-style: inherit;
 }
 
-.wrapper .p{
+.wrapper1 .p{
     width: 50%;
     background-color: lightgrey;
     color: rgb(51, 49, 49);
@@ -175,3 +175,48 @@ h1 {
 
     text-shadow: 5px 5px black;
 }
+
+.tenor-gif-embed{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.medialist{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    position: relative;
+}
+  
+.button {
+    position: relative;
+    z-index: 1;
+}
+  
+.panel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: none;
+}
+
+.panel {
+    animation: slide-in 0.5s ease-out forwards;
+}
+  
+@keyframes slide-in {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
